@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #363636;
+    width: 100%;
+    height: 100vh;
+    color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.bdy_img{
+    width: 100%;
+}
+.bdy_img img{
+    width: 100%;
+    display: block;
+}
+
+.block{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'AkuteBlack';
+    src: url('Akute-Black.eot'); /* IE9 Compat Modes */
+    src: url('Akute-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Akute-Black.woff') format('woff'), /* Modern Browsers */
+         url('Akute-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('Akute-Black.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 48px;
+    margin-bottom: 58px;
+}
+h1::first-letter{
+    color: aqua;
+    font-size: 58px;
+
+}
+label{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+}
+input{
+    background: #6e6e6e00;
+    box-shadow: 0 0 5px 0 #000000;
+    border: none;
+    color: #f0f8ff;
+    padding-left: 10px;
+    height: 40px;
+}
+select{
+    background: #6e6e6e00;
+    box-shadow: 0 0 5px 0 #000000;
+    border: none;
+    color: #f0f8ff;
+    padding-left: 10px;
+    height: 40px;
+}
+option{
+    background: #000000;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+select:focus,:focus{
+    outline: 0;
+    border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+.out_put{
+    color: #ff4c05;
+    text-align: right;
+
+}
+table, td, th {  
+    border: 1px solid #41ccb5;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'AkuteBlack';
+    src: url('Akute-Black.eot'); /* IE9 Compat Modes */
+    src: url('Akute-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Akute-Black.woff') format('woff'), /* Modern Browsers */
+         url('Akute-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('Akute-Black.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+  }
+  th{
+      font-size: 24px;
+      color: #000000;
+      font-weight: 300;
+      background: #187e6d;
+  }
+  td{
+      font-size: 18px;
+      font-weight: 300;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  th, td {
+    padding: 5px 10px;
+  }
+  button{
+    border: none;
+    width: 120px;
+    background: #1e7f97;
+    color: #f0f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 10px 8px;
+    text-decoration: none;
+    margin-top: 16px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-transform: uppercase;
+}
+.list{
+    position: relative;
+}
+  .list a{
+      display: inline-block;
+      width: 200px;
+      background: #187e6d;
+      color: #f0f8ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 18px;
+      padding: 10px 8px;
+      text-decoration: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-00%,-80%);
+      -webkit-transform: translate(-00%,-80%);
+      -moz-transform: translate(-00%,-80%);
+      -ms-transform: translate(-00%,-80%);
+      -o-transform: translate(-00%,-80%);
+}
+.add{
+    display: block;
+}
+  .add a{
+      display: block;
+      width: 200px;
+      background: #187e6d;
+      color: #f0f8ff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 18px;
+      padding: 10px 8px;
+      text-decoration: none;
+      /* position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-00%,-80%);
+      -webkit-transform: translate(-00%,-80%);
+      -moz-transform: translate(-00%,-80%);
+      -ms-transform: translate(-00%,-80%);
+      -o-transform: translate(-00%,-80%); */
+}
